@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+*{
+    font-family: geist;
+}
+p{
+  font-family: 'geist mono';
+}
+
+/* hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+@import "tailwindcss";
+
+.back {
+    position: relative;
+    background-image: url('./assets/back.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.linebg {
+    background-image: url('./assets/line.svg');
+    background-size: contain;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: border-box;
+}
+
+.lay1{
+    background-image: url('./assets/lay1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: border-box;
+}
+
+.lay2{
+    background-image: url('./assets/lay2.svg');
+    background-size: cover;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: border-box;
+}
+
+:root {
+    --color-primary: #151D26;   /* Deep blue */
+    --color-secondary: #517193; /* Amber */
+  
+  }
+  
