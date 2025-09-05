@@ -12,7 +12,7 @@ const Navbar = () => {
     }`
 
   return (
-    <div className="py-5 my-5 bg-transparent flex justify-between items-center px-4 md:px-6 lg:px-12">
+    <div className="py-5  bg-transparent flex justify-between items-center px-4 md:px-6 lg:px-12">
       {/* Logo */}
       <div className="flex gap-2 items-center">
         <img src={assets.logo} alt="Logo" className="w-8" />

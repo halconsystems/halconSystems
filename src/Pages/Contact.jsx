@@ -22,7 +22,7 @@ const Contact = () => {
         <div className="relative  hidden lg:flex justify-center items-center">
           <div className="p-2  ">
           <img
-              src={assets.letsdiscuss}
+              src={assets.letsDiscuss}
               alt="Contact"
               className="w-full h-full object-cover "
             />
